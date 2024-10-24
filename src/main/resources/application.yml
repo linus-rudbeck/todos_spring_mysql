@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: todos_application
+  datasource:
+    url: jdbc:mysql://localhost:3308/todos_application
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
